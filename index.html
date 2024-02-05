@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enigma Message</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="https://media.glassdoor.com/sqll/2500530/alura-squarelogo-1602197362646.png" alt="logo de alura, es una letra a blanca con fondo azul.">
+        </nav>
+    </header>
+    <main id="container">
+        <section id="principal">
+            <form class="principal__form">
+                <textarea id="principal__textoUsuario" cols="30" rows="10" placeholder="Ingresa el texto aquí"></textarea>
+                <span class="principal__spanMensaje">*Solo letras minúsculas y sin acentos</span>
+                <div class="btn-container">
+                    <button class="principal__btn encriptar" onclick="encriptar(event);">Encriptar</button>
+                    <button class="principal__btn desencriptar" onclick="desencriptar(event);">Desencriptar</button>
+                </div>
+            </form>
+        </section>
+        <section id="mensaje-encriptado">
+            <div class="mensaje-encriptado__container">
+                <span id="mensaje-encriptado__mensajeUsuario">Ningún mensaje fue encontrado</span>
+                <span id="mensaje-encriptado__alerta">Ingresa el texto que desees encriptar o desencriptar</span>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

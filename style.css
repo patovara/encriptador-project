@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(241, 236, 236);
+}
+    img{
+        width: 50px;
+        margin: 20px 0 0 20px;
+        border-radius: 20%;
+    }
+    
+    #container{
+        width: 80%;
+        margin: 10% auto;
+    }
+    .principal__spanMensaje{
+        display: block;
+        margin: 10px;
+    }
+    #principal__textoUsuario{
+        width: 100%;
+        height: 300px;
+        font-size: 25px;
+        font-style: italic;
+        border: none;
+        outline: none;
+    }
+    
+    .btn-container{
+        margin: 20px 0 100px;
+        width: 100%;
+    }
+    
+    .principal__btn{
+        display: block;
+        font-size: 25px;
+        padding: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+        border:none;
+        border-radius: 5px
+    }
+    
+    .encriptar{
+        background-color: blue;
+        color:whitesmoke;
+    }
+    
+    .desencriptar{
+        background-color: #ffffff;
+        color: blue;
+        border: 1px solid blue;
+    }
+    .principal__spanMensaje{
+        font-size: 15px;
+        text-align: left;
+    }
+    
+    #mensaje-encriptado{
+        background-color: #ffffff;
+        width: 100%;
+        box-shadow: 1px 1px 10px darkgray;
+        border-radius: 20px;
+        padding: 20px;
+        height: 200px;
+    }
+    
+    .mensaje-encriptado__container{
+        margin: 5px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    #mensaje-encriptado__mensajeUsuario{
+        display: block;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    #mensaje-encriptado__alerta{
+        display: block;
+        text-align:center;
+        font-size: 20px;
+        margin-top: 10px;
+    }   
+
+@media only screen and (min-width: 1000px) {
+    img{
+        width: 80px;
+        margin: 50px 0 0 50px;
+    }
+    #principal__textoUsuario{
+        height: 700px;
+        font-size: 35px;
+    }
+    .principal__spanMensaje{
+        font-size: 24px;
+    }
+    .btn-container{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 35px;
+    }
+
+    .principal__btn{
+        font-size: 30px;
+        padding: 20px;
+        margin: 0 0 10px 0;
+        width: 45%;
+    }
+}
